@@ -1,6 +1,6 @@
-#Plugin Name
+#Bitshows
 
-A simple, lightweight jQuery plugin to retrieve an artist's event listings on BandsInTown.
+A simple, lightweight jQuery plugin to retrieve an artist's event listings on <strong>B</strong>ands<strong>I</strong>n<strong>T</strong>own.
 
 <a href="http://michael-lynch.github.io/bitshows/" target="_blank" title="See a demo of this plugin">See a demo</a>
 
