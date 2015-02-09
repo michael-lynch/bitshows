@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<meta charset="utf-8">
+
+	<title>Bitshows jQuery Plugin</title>
+	
+	<meta name="description" content="A simple, lightweight jQuery plugin to retrieve an artist's event listings on BandsInTown.">
+	
+	<meta name="author" content="http://michaelynch.com">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+	
+</head>
+
+	<body lang="en">
+	
+		<div class="wrapper">
+		
+			<div class="content">
+			
+				<div class="copy wrapper">
+				
+					<h1 class="title">Upcoming Skrillex Events by BandsInTown</h1>
+				
+					<ul class="events"></ul>
+				
+				</div>
+				
+			</div>
+		
+		</div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		
+		<script src="/src/bitshows.js"></script>
+		
+		<script>
+		
+			$('.events').bitshows({
+				loader: false,
+				artist: 'Skrillex',
+				success: function() {
+					
+				},
+				error: function() {
+					$('.copy').remove();
+				}
+			});
+		
+		</script>
+
+	</body>
+	
+</html>
