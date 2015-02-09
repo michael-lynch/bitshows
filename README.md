@@ -72,6 +72,12 @@ error: function()
 		$(function() {
 			
 			$('.bitshows').bitshows({
+				api_app_id "myapp",
+				artist: "Skrillex",
+				range: "all",
+				date_format: "dd/mm/yyyy",
+				tickets: false,
+				loader: false,
 				success: function() {
 					console.log('The plugin was successful!');
 				},
