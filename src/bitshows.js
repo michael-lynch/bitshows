@@ -81,7 +81,7 @@ Licensed under the MIT license
 			} else if(s.date_format === 'mm/dd/yyyy') {
 				dateFormattted = monthNumZero + '/' + dayNumZero + '/' + year;
 			} else {
-				dateFormattted = day + ' ' + month + ' ' + dayNum+', '+year;
+				dateFormattted = day + ' ' + month + ' ' + date.getDate() +', '+year;
 			}
 	        
 	        event += '<span class="event__date">'+dateFormattted+'</span>';
