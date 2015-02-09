@@ -1,11 +1,11 @@
 /*!
 
-Name: 
+Name: Bitshows
 Dependencies: jQuery
 Author: Michael Lynch
 Author URL: http://michaelynch.com
-Date Created:
-Last Updated:
+Date Created: February 9, 2015
+Last Updated: February 9, 2015
 Licensed under the MIT license
 
 */
