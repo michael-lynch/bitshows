@@ -122,6 +122,8 @@ Licensed under the MIT license
 	        		_this.empty();
 	        		
 	        		console.log(response);
+	        		
+	        		response.reverse();
 	        	
 	        		for(var i = 0; i < response.length; i++) {
 	        		
